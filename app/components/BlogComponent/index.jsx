@@ -19,17 +19,21 @@ export default function BlogComponent({
 		li: (chunks) => `<li>${chunks}</li>`,
 		div: (chunks) => `<div>${chunks}</div>`,
 	});
-
+	console.log(pictureNeeded);
 	return (
 		<div className='blog-box-inner col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-1'>
 			<Link lng={lng} href={linkNeeded}>
 				<figure className='figure border border-danger'>
-					<Image
-						src={pictureNeeded}
-						alt={textHeader}
-						width={300}
-						height={220}
-					/>
+					<div className='blog-pic'>
+						<Image
+							loading='lazy'
+							src={pictureNeeded}
+							alt={textHeader}
+							width={1000} // встановіть значення ширини, яке відповідає оригінальним пропорціям
+							height={600} // встановіть відповідне значення висоти
+							style={{ width: "100%", height: "auto" }}
+						/>
+					</div>
 					<figcaption className='figure-caption p-1 text-white text-start'>
 						{textHeader}
 					</figcaption>
