@@ -1,0 +1,10 @@
+.gallery img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	transition: 0.3s;
+	padding: 0;
+}
+.gallery {
+	position: relative;
+}

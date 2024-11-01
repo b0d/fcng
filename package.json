@@ -6,15 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.15"
+    "accept-language": "^3.0.20",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "i18next": "^23.16.3",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "next": "^15.0.1",
+    "next-i18next": "^15.3.1",
+    "react": "^18.3.1",
+    "react-cookie": "^7.2.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.1.0",
+    "sanitize-html": "^2.13.1",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15"
+    "@types/node": "^22.7.9",
+    "@types/react": "^18.3.12",
+    "eslint": "^9.13.0",
+    "eslint-config-next": "^15.0.1"
   }
 }

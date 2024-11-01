@@ -1,0 +1,21 @@
+.first-screen {
+	background: url(./first-screen.webp) center center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 4% 0;
+	color: #ffffff;
+	padding: 30px 0;
+}
+
+.first-screen h1,
+.header-logo {
+	margin-bottom: 60px;
+}
+@media (max-width: 576px) {
+	.first-screen h1 {
+		text-align: center;
+	}
+}

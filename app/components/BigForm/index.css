@@ -1,0 +1,107 @@
+.big-form {
+	margin: 30px 0px;
+	padding: 30px 0px 60px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	background: linear-gradient(135deg, #b30000, #270404, #330101, #4b0000);
+	background-size: 600% 600%; /* Увеличиваем размер фона для анимации */
+	animation: gradientAnimation 8s ease infinite; /* Анимация градиента */
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.big-form label {
+	padding-bottom: 15px;
+}
+form .h2-title {
+	background: linear-gradient(135deg, #fffdfd, #330101, #db2d2d, #b30000);
+	background-size: 600% 600%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textGradient 8s ease infinite;
+}
+@keyframes textGradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.big-form input {
+	outline: 0;
+	width: 300px;
+	background-color: transparent;
+	border: 1px solid red;
+	font-size: 1.285em;
+	line-height: 1em;
+	font-family: OpenSansLightItalic;
+	padding: 11.5px 15px;
+	color: #fff;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	max-width: 300px;
+}
+.order-butt {
+	background: -webkit-linear-gradient(
+		right,
+		#e75782,
+		#bd0606,
+		#f56565,
+		#ea0101
+	);
+	background-color: rgba(0, 0, 0, 0);
+	background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 11px 6px;
+	margin-top: 25px;
+	background-color: transparent;
+	color: #ffffff;
+	font-weight: bold;
+	border: 1px solid #ea0101;
+	cursor: pointer;
+	text-align: center;
+	width: 300px;
+	transition: 0.6s ease-in-out;
+	-webkit-transition: 0.6s ease-in-out;
+	-moz-transition: 0.6s ease-in-out;
+	-ms-transition: 0.6s ease-in-out;
+	-o-transition: 0.6s ease-in-out;
+}
+.order-butt:hover {
+	text-shadow: 0 0 1px #ffffff, 0 0 15px #ffffff;
+	transition: 0.6s ease-in-out;
+	-webkit-transition: 0.6s ease-in-out;
+	-moz-transition: 0.6s ease-in-out;
+	-ms-transition: 0.6s ease-in-out;
+	-o-transition: 0.6s ease-in-out;
+	border: 1px solid #ffffff;
+}
+.big-form input:focus,
+.big-form input:hover {
+	background: rgba(43, 2, 2, 0.9);
+	border: 1px solid #fff;
+	color: #ffffff;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+}

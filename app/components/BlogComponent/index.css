@@ -1,0 +1,20 @@
+.blog-box-inner figcaption {
+	max-width: 300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@media (min-width: 768px) {
+	.blog-box-inner a {
+		width: 100% !important;
+	}
+	.blog-box-inner img {
+		width: 100% !important;
+	}
+}
+
+@media (min-width: 1399px) {
+	.blog-box-inner img {
+		width: 100% !important;
+	}
+}
